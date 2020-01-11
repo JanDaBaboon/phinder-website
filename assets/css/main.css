@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   line-height: 1.5;
   text-transform: uppercase;
-  margin: 0 0 1.5rem 0; }
+  margin: 0 0 0 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none; }
@@ -1780,18 +1780,18 @@ ul.icons {
 
 /* Wrapper */
 .wrapper {
-  padding: 8rem 0 6rem 0 ;
+  padding: 0 0 0 0;
   position: relative;
   z-index: 1; }
-  @media screen and (max-width: 1280px) {
-    .wrapper {
-      padding: 4rem 0 2rem 0 ; } }
-  @media screen and (max-width: 736px) {
-    .wrapper {
-      padding: 3rem 0 1rem 0 ; } }
-  @media screen and (max-width: 480px) {
-    .wrapper {
-      padding: 2rem 0 0.1rem 0 ; } }
+
+
+#included_text{
+
+  position: relative;
+  top: 25px;
+  
+}
+
 
 /* Banner */
 #banner {
@@ -1811,17 +1811,15 @@ ul.icons {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
-  min-height: 35rem;
+  height: 25rem !important;
+  min-height: 30rem;
   overflow: hidden;
   position: relative;
-  text-align: center;
   width: 100%; }
   #banner input, #banner select, #banner textarea {
     color: #ffffff; }
@@ -1977,19 +1975,6 @@ ul.icons {
     text-decoration: none; }
     #banner a:hover {
       color: #ffffff; }
-  #banner video {
-    -moz-transform: translateX(50%) translateY(50%);
-    -webkit-transform: translateX(50%) translateY(50%);
-    -ms-transform: translateX(50%) translateY(50%);
-    transform: translateX(50%) translateY(50%);
-    bottom: 50%;
-    height: auto;
-    min-height: 100%;
-    min-width: 100%;
-    overflow: hidden;
-    position: absolute;
-    right: 50%;
-    width: auto; }
   #banner:before {
     -moz-transition: opacity 3s ease;
     -webkit-transition: opacity 3s ease;
